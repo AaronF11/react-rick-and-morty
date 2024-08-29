@@ -1,0 +1,77 @@
+.Character {
+    text-align: center;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 500px;
+}
+
+.Character:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transform: scale(1.05);
+}
+
+.Character .imageContainer {
+    width: 100%;
+    height: 70%;
+    border-radius: 8px 8px 0 0;
+}
+
+.Character img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    transition: opacity 0.2s;
+}
+
+.Character .infoContainer {
+    width: 100%;
+    height: 30%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Character .name {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Character .status {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Character .species {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Character .gender {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

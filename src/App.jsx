@@ -1,9 +1,10 @@
-import { CharacterList } from "./components/CharacterList";
+import { CharacterList } from "./components/CharacterList/CharacterList";
+import './App.css'
 
 function App() {
   return (
-    <div className="bg-dark text-white">
-      <h1 className="text-center display-1 py-4">Rick And Morty</h1>
+    <div className="Page">
+      <h1 className="Title">RICK AND MORTY</h1>
       <CharacterList />
     </div>
   );
